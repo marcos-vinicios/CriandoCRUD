@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <!--editText: input titulo string-->
+    <EditText
+        android:id="@+id/titulo"
+        android:layout_margin="2dp"
+        android:background="@drawable/bg_edit"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+ <!--EditText: Input descricao da string-->
+    <EditText
+        android:id="@+id/descricao"
+        android:layout_margin="2dp"
+        android:background="@drawable/bg_edit"
+        android:padding="10dp"
+        android:inputType="textMultiLine |textCapSentences"
+        android:hint="Descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="250dp"
+        android:gravity="start"/>
+<!--Botao: salvar/upload data do FIREBASE cloud Firestore-->
+    <Button
+        android:id="@+id/salvarBtn"
+        android:text="salva"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--Botao: inicia ListActivity mostrar para o Firestore-->
+    <Button
+        android:id="@+id/listaBtn"
+        android:text="Mostrar Lista"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

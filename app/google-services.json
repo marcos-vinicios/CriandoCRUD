@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "957599006128",
+    "firebase_url": "https://criandocrud.firebaseio.com",
+    "project_id": "criandocrud",
+    "storage_bucket": "criandocrud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957599006128:android:24af3c5dcc2e84d58aaa75",
+        "android_client_info": {
+          "package_name": "marcosvinicios.cursoandroidapp.criandocrud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957599006128-rvsq6ljmjs6s1hm4cc18d4nkomlnfisa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "marcosvinicios.cursoandroidapp.criandocrud",
+            "certificate_hash": "58c8455967cd9247c93e152d0ea0d3c97d44ad2b"
+          }
+        },
+        {
+          "client_id": "957599006128-f1uppq28jnt6d5hp08qh43vuggtmq9q7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-_JccOGszNpCOyI7ose0pPSEWeyx7rwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957599006128-f1uppq28jnt6d5hp08qh43vuggtmq9q7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
